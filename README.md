@@ -85,8 +85,7 @@ git clone REPOSITORY_URL
 Replace `REPOSITORY_URL` with the actual repository URL.
 
 ## 6. Conclusion
-
-Git records file changes, and GitHub hosts repositories for online collaboration.
+Git records and preserves project history, while GitHub hosts repositories and supports online collaboration.
 ## 7. Git Workflow Best Practices
 
 - Check the working tree before making changes.
@@ -151,3 +150,12 @@ git push -u origin feature/my-feature
 - Review the changes before merging.
 - Link pull requests to related GitHub Issues.
 - Avoid committing directly to `main` when using a feature-branch workflow.
+
+
+## Merge Conflict Demonstration
+
+This section demonstrates how Git handles conflicting changes when two branches modify the same line.
+
+## Merge Conflict Demonstration
+
+This section explains how to identify and resolve conflicts between Git branches.
