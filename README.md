@@ -157,3 +157,7 @@ git push -u origin feature/my-feature
 ## Merge Conflict Demonstration
 
 This section demonstrates how Git handles conflicting changes when two branches modify the same line.
+
+## Merge Conflict Demonstration
+
+This section explains how to identify and resolve conflicts between Git branches.
