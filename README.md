@@ -152,3 +152,8 @@ git push -u origin feature/my-feature
 - Review the changes before merging.
 - Link pull requests to related GitHub Issues.
 - Avoid committing directly to `main` when using a feature-branch workflow.
+
+
+## Merge Conflict Demonstration
+
+This section demonstrates how Git handles conflicting changes when two branches modify the same line.
