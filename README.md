@@ -86,8 +86,7 @@ Replace `REPOSITORY_URL` with the actual repository URL.
 
 ## 6. Conclusion
 
-Git tracks file changes, while GitHub makes it easier to store repositories online and collaborate with other developers. Learning basic Git commands is the first step toward managing projects effectively.
-
+Git preserves project history, while GitHub supports sharing and teamwork online.
 ## 7. Git Workflow Best Practices
 
 - Check the working tree before making changes.
