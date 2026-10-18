@@ -95,3 +95,60 @@ Git tracks file changes, while GitHub makes it easier to store repositories onli
 - Commit small, related changes.
 - Create feature branches instead of working directly on main.
 - Review changes before merging.
+
+
+## 8. Branching and Pull Requests
+
+### What Is a Branch?
+
+A branch is a separate line of development. It allows developers to work on new features or fixes without changing the main branch immediately.
+
+Create and switch to a new branch:
+
+```bash
+git switch -c feature/my-feature
+```
+
+List branches:
+
+```bash
+git branch
+```
+
+Switch back to the main branch:
+
+```bash
+git switch main
+```
+
+### What Is a Pull Request?
+
+A pull request (PR) is a request to merge changes from one branch into another. Pull requests allow developers to review changes, discuss improvements, and identify problems before merging.
+
+### Pull Request Workflow
+
+1. Create a feature branch.
+2. Make changes to project files.
+3. Stage and commit the changes.
+4. Push the feature branch to GitHub.
+5. Open a pull request targeting `main`.
+6. Review the changes and resolve any issues.
+7. Merge the pull request after approval, following the project's review requirements.
+
+### Useful Commands
+
+```bash
+git switch -c feature/my-feature
+git add README.md
+git commit -m "docs: explain branching and pull requests"
+git push -u origin feature/my-feature
+```
+
+### Best Practices
+
+- Use descriptive branch names.
+- Keep commits small and focused.
+- Explain the purpose of each pull request.
+- Review the changes before merging.
+- Link pull requests to related GitHub Issues.
+- Avoid committing directly to `main` when using a feature-branch workflow.
